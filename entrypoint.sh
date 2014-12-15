@@ -15,7 +15,7 @@ fi
 
 if [ "$theme" == "DarkTheme" ]; then
   theme="/opt/shellinabox/shellinabox/white-on-black.css"
-else  
+else
   theme="/opt/shellinabox/shellinabox/black-on-white.css"
 fi
 

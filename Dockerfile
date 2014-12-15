@@ -11,8 +11,6 @@ RUN wget -q "http://www.nuxeo.org/static/latest-release/nuxeo,tomcat.zip,6.0" -O
 ENV CODENVY_APP_PORT_8080_HTTP 8080
 EXPOSE 8080
 
-
-
 # install shell in the box
 
 RUN apt-get update && \
